@@ -1,0 +1,25 @@
+package day9;
+
+class Wild {
+    String colour = "Red";
+}
+
+class Bir extends Wild {
+    String colour = "Purple";
+}
+
+class Do extends Bir {
+    String colour = "White";
+
+    void display() {
+        System.out.println(colour);
+        System.out.println(super.colour);
+    }
+}
+
+public class dit {
+    public static void main(String[] args) {
+        Do obj = new Do();
+        obj.display();
+    }
+}
