@@ -1,0 +1,23 @@
+package day9;
+
+class Bi
+{
+	Bi()
+	{
+		System.out.println("Singing");
+	}
+}
+class D extends Bi
+{
+	D()
+	{
+		System.out.println("BOw BOw");
+	}
+}
+public class yit
+{
+	public static void main(String[] args)
+	{
+		D obj=new D();
+	}
+}
